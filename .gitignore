@@ -1,0 +1,55 @@
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# Environment and Configuration (with sensitive data)
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node/Frontend (if used)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+logs/
+
+# Database backups
+*.sql.bak
+*.backup
+database/*.dump
+
+# Cache files
+*.cache
+.cache/
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Misc
+.DS_Store
+.env
+config/local.php
+
+# Build directories (if applicable)
+dist/
+build/
+out/
